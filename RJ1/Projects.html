@@ -10,14 +10,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <header>
+    <h1 align="center"><b>MY PORTFOLIO</b></h1>
+  </header>
    <style>
       body {
         background-image: url("pj.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;  
         background-size: cover;
-       
       }
+     
    </style>  
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <a class="navbar-brand" href="#">Akshitha</a>
@@ -46,36 +49,68 @@
 <br>
 </h2>
 </body>
-<div class="container">
-   <div class="row">
-    <div class="col-lg-3 col-md-4 col-sm-2">
-       <a href="dance.gif" >
-           <p>Dance</p>
-           <img src="dance.gif"  class="img-thumbnail" width="70%" height="70%"/>
-       </a>
-    
-   </div>
+
    <h2>
-      <b text-align="center">MY PROJECTS</b>
+      <b text-align="right">MY PROJECTS</b>
    </h2>
 
    <div class="row">
-      <div class="column" style="background-color:aqua">
+    <div class="col-sm-6" style="padding:40px">
+      <!--div class="column" style="background-color:aqua">-->
   
         <center> <h2> MINI PROJECT </h2> </center> 
-      <p> <b>  Project Name : </b> Prediction Of Health using BMI <br><br>
-         <b>Duration of the project : </b>45 days<br><br>
-       <b>Technologies used : </b> Python,NumPy,Pandas,Matpotlib,Scikit-Learn <br><br>
-       <b>Brief description : </b>The project is all about Analyzing the health condition of a person,Visualizing and Prediction involves the conversion of data into numerical values and splitting up the data to find or achieve accuracy.<br><br>
-     
+      <h5><p> <b>  Project Name : </b> Prediction Of Health using BMI <br><br></h5>
+         <h5><b>Duration of the project : </b>45 days<br><br></h5>
+         <h5><b>Technologies used : </b> Python,NumPy,Pandas,Matpotlib,Scikit-Learn <br><br></h5>
+         <h5><b>Brief description : </b>The project is all about Analyzing the health condition of a person,Visualizing and Prediction involves the conversion of data into numerical values and splitting up the data to find or achieve accuracy.<br><br></h5>
+      </p>
+      </div>
 
-   <div class="column" style="background-color:#bbb;">
+   <!--<div class="column" style="background-color:rgb(12, 117, 44);">-->
+    <div class="col-sm-6" style="padding:40px">
       
      <center> <h2> MAJOR PROJECT  </h2> </center> 
-      <p> <b> PROJECT NAME: </b> Conversational Networks For Automatic Online Moderation<br><br>
-        <b> Duration of the project : </b> 6 weeks <br><br>
-       <b> Technologies used : </b> Python,MySQL <br><br>
-       <b> Brief description : </b> It describes the basic moderation of user-generated content in an internet community where several methods have been proposed to automize this moderation process.<br>
+     <h5><p> <b> PROJECT NAME: </b> Conversational Networks For Automatic Online Moderation<br><br></h5>
+      <h5><b> Duration of the project : </b> 6 weeks <br><br></h5>
+      <h5><b> Technologies used : </b> Python,MySQL <br><br></h5>
+      <h5><b> Brief description : </b> It describes the basic moderation of user-generated content in an internet community where several methods have been proposed to automize this moderation process.<br></h5>
        <br>
-       
       </p>
+    </div>
+    
+    </div>
+    <div class="container">
+      <h2>Modal</h2>
+      <!-- Button to Open the Modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+        Open modal
+      </button>
+    
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Projects</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              About My Projects are here...
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <footer align="center"><h3><a href="To know more about the projects.html">To know more about the projects</a></h3></footer>
+    </body>
+
+    </html>
